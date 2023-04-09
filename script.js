@@ -45,6 +45,7 @@ function mode(){
     else{
         icon.classList.remove("fa-sun");
         icon.classList.add("fa-moon");
+        sessionStorage.setItem("state", "light");
     }
 }
 
