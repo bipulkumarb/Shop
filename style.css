@@ -1114,7 +1114,8 @@ footer a:hover{
     }
 
     #newsletter .form {
-        width: 70%;
+        width: 100%;
+        /* align-items: center; */
     }
 
     /* contact  */
@@ -1156,12 +1157,14 @@ footer a:hover{
     }
 
     #features{
-        justify-content: space-between;
+        align-items: center;
+        
     }
 
     #features .fe-box{
         width: 155px;
         margin: 0 0 15px 0;
+        /* align-items: center; */
     }
     #product1 .pro{
         width: 100%;
